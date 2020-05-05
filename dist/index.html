@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Speed Typer</title>
+  </head>
+  <body>
+    <div class="start-screen" id="startScreen">
+      <h1>this is a typing game.<br>are you ready to test<br> your speed? <button id="start-btn">YES</button></h1>
+    </div>
+    <div class="game-screen" id="gameScreen">
+      <div class="timer" id="timer"></div>
+      <div class="row">
+        <h1>SCORE </h1>
+        <div class="score" id="score"></div>
+      </div>
+      <div class="container">
+        <div class="quote-display" id="quoteDisplay"></div>
+        <textarea class="quote-input" id="quoteInput" autofocus></textarea>
+      </div>
+    </div>
+    <div class="end-screen" id="endScreen">
+      <h2><span class="congrats">CONGRATULATIONS</span><br>your score is:<br><span class="final-score" id="finalScore"></span><h2>
+    </div>
+  </body>
+</html>
