@@ -52,7 +52,7 @@ quoteInputElement.addEventListener('input', () => {
 })
 
 function getQuote() {
-  return fetch("http://api.quotable.io/random")
+  return fetch(RANDOM_QUOTE_API_URL)
     .then(response => response.json())
     .then(data => data.content)
 }
